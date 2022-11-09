@@ -16,6 +16,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 from functools import wraps
 
+import os
+
 
 basedir = Path(__file__).resolve().parent
 
