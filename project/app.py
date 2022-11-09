@@ -1,9 +1,8 @@
-import sqlite3
+
 from pathlib import Path
 
 from flask import (
     Flask,
-    g,
     render_template,
     request,
     session,
@@ -16,8 +15,6 @@ from flask import (
 from flask_sqlalchemy import SQLAlchemy
 
 from functools import wraps
-
-import os
 
 
 basedir = Path(__file__).resolve().parent
